@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(250, 247, 242, 1);
+}
+
+header{
+    background-color: rgba(238, 172, 71, 1);
+    padding: 10px;
+    border-bottom: 5px solid black;
+}
+
+li{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+ul, ol{
+    list-style-position: inside;
+    margin: 0 auto;
+    padding: 0px;
+    word-break: break-word;
+    text-align: left;
+}
+
+.description{
+    box-sizing: border-box;
+    border: 2px dashed black;
+    max-width: 30%;
+    max-height: auto;
+    margin: 5px auto;
+    background-color: wheat;
+}
+
+img{
+    box-sizing: border-box;
+    max-height: 50vh;
+    max-width: 100%;  
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.ingredients, .instructions{
+    box-sizing: border-box;
+    display: block;
+    width: 30%;
+    margin: 5px auto;
+    border: 2px solid black;
+    background-color: wheat;
+    padding: 5px 15px;
+    
+}
